@@ -15,7 +15,6 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -29,5 +28,5 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
   },
-  plugins: ['unused-imports', 'simple-import-sort'],
+  plugins: ['unused-imports', 'simple-import-sort', '@typescript-eslint'],
 }
